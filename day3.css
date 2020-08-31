@@ -1,0 +1,201 @@
+body{
+    margin:0;
+    background-color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    width:100%;
+    background-color:#333;
+    color:rgb(128, 126, 126);
+    display:flow-root;
+    
+}
+header img{
+    width:5vw;
+    height:8vh;
+    margin:10px;
+    
+}
+header ul li a
+{
+    text-decoration: none;
+    color:rgb(128, 126, 126);
+    
+}
+header ul li a:hover{
+    color: white;
+    
+}
+header ul li{
+    list-style-type: none;
+    float:left;
+    padding: 20px;
+}
+header ul{
+    padding:0px;
+    margin:0px;
+}
+header .site-logo{
+    float: left;
+    display:flex;
+}
+header .site-logo h1{
+    display: inline;
+    margin:10px;
+
+}
+header .site-header-links
+{
+    float:right;
+}
+
+.container-first
+{
+    
+
+    text-align: center;
+    padding:50px;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    
+    
+}
+.container-first h1{
+
+    margin:0;
+
+}
+.container-first h4{
+    padding: 50px;
+}
+.container-first a{
+    text-decoration: none;
+    padding:20px;
+    background-color: white;
+    margin:20px;
+    color:black;
+    
+}
+.container-first a:hover{
+    background-color:#949494;
+}
+
+.container-second h1{
+    margin:0px;
+    padding-top: 80px;
+    text-align:center;
+    text-shadow: 0px 2px 5px #333;
+}
+.container-second .row{
+    padding: 40px;
+    display: flow-root;
+}
+.container-second .row .divide{
+    float:left;
+    width:33.33%;
+    color:white;
+    
+    
+}
+.container-second .row .divide .service{
+    margin:10px;
+    background-color: white;
+    text-align:center;
+    padding:50px;
+    background:linear-gradient(#1890ff,#1da09c);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #333 ;
+}
+.container-second .row .divide .service img{
+    filter: invert(1);
+}
+.subscriber{
+    text-align: center;
+    padding:50px;
+    background:url("https://assets.leetcode.com/explore/cards/google/img");
+    
+
+}
+.subscriber .text-field{
+    outline: none;
+    border:none;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px #333;
+
+
+}
+
+button:hover{
+    background-color:#949494 ;
+}
+button:active{
+    transform: translateY(5px);
+    
+    
+}
+.text-field{
+    background:white;
+    margin:20px;
+    padding:20px;
+
+
+
+
+}
+
+.site-contain-area
+{
+    text-align: center;
+    padding:20px;
+    
+
+}
+.site-contain-area img{
+    width:5vw;
+    height:8vh;
+    margin:10px;
+   
+}
+
+@media only screen and (max-width:767px)
+{
+    .container-second .row .divide{
+        float:none;
+        width:100%;
+    }
+    
+    header .site-logo{
+        float:none;
+    }
+    header .site-header-links{
+        float:none;
+    }
+    .container-first .links a{
+        display:block;
+    }
+
+    .container-first{
+        background-image:url("https://images.unsplash.com/photo-1594389043899-91a6b4316d27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    }
+
+
+}
+@media only screen and (max-width:1200px){
+    .container-first{
+        background-image: url("https://images.unsplash.com/photo-1530818718778-8b666f576020?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+
+
+    }
+}
+@media only screen and (max-width:380px){
+    .container-first{
+        background-image: url("https://tse1.mm.bing.net/th?id=OIP.KKLwrtl3KCAq20m68PRz3gHaNJ&pid=Api&P=0&w=300&h=300");
+    }
+    .container-first .links a{
+        display:block;
+    }
+}
